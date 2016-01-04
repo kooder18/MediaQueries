@@ -1,0 +1,83 @@
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '1223168004365171',
+    xfbml      : true,
+    version    : 'v2.5'
+  });
+};
+
+(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_US/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "img/backyard.jpg"
+
+
+var image2 = new Image()
+image2.src = "img/sprinkler.jpg"
+
+
+var image3 = new Image()
+image3.src = "img/broken_sprinkler.jpg"
+
+var text1 = 'We are here to help';
+var text2 = 'No matter if the job is simple';
+var text3 = 'Or complex';
+
+</script>
+<div class="slide">
+<p class="slide_content"><img class="test" src="/img/backyard.jpg" width="500px" height="100px" name="slide" /></p>
+<p id="special"><i>
+
+</i>
+</p>
+</div>
+<script type="text/javascript">
+document.getElementById("special").innerHTML = text1;
+      var step=1;
+      function slideit()
+      {
+          document.images.slide.src = eval("image"+step+".src");
+          if(step == 1) {
+            step++;
+            document.getElementById("special").innerHTML = text1;
+          }
+
+          else if(step == 2){
+            step++;
+            document.getElementById("special").innerHTML = text2;
+          }
+
+          else if(step == 3){
+            step++;
+            document.getElementById("special").innerHTML = text3;
+            step=1;
+          }
+          else {
+              step=1;
+            }
+          setTimeout("slideit()",2500);
+      }
+      slideit();
+</script>
+
+
+<div class="second">
+<p> <em><font size="5">Here</font></em> at Most Wanted Landscape our goal is to give
+you the yard of your dreams. We do installs and repairs, whether you need a whole new
+sprinkler system or a simple valve repair no job is too
+  tough for us to handle. Like us on facebook to help get the word out. We are here to
+  serve you. Come find out why we are the Most Wanted Landscape Company in Utah!
+
+  <!--<div class="fb-like" data-href="http://localhost:3000" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+-->
+</p>
+</div>

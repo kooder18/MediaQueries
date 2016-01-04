@@ -1,0 +1,467 @@
+.page {
+  /*.fb-like {
+  background:#f4f4f4;
+  width:320px;
+  padding:0px;
+  margin:10px 0px;
+  border:solid 6px #e9e8e8;
+}*/
+}
+.page .test {
+  border: 5px solid;
+  border-radius: 15px;
+}
+.page header {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #444444;
+  background: -webkit-linear-gradient(-90deg, #444444, #000000);
+  background: linear-gradient(180deg, #444444, #000000);
+  box-shadow: 0px 5px #000000;
+}
+.page #special {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000000;
+  border-radius: 15px;
+  font-family: 'Shadows Into Light', sans-serif;
+  background-color: #000000;
+  color: #a1d490;
+  min-width: 10em;
+  min-height: 5em;
+  max-width: 10em;
+}
+.page .second p {
+  position: relative;
+  font-family: cursive;
+  color: #aaaaaa;
+  background: #000000;
+  border-radius: 15px;
+  background: #000000;
+  background: -webkit-linear-gradient(-90deg, #000000, #444444);
+  background: linear-gradient(180deg, #000000, #444444);
+}
+.page .second em {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+header p {
+  position: relative;
+  font-family: 'Cuprum', sans-serif;
+  color: #aaaaaa;
+  margin: 0;
+  margin-left: 1em;
+  padding: 1.2em 2em .4em .5em;
+  padding-top: 3em;
+  text-align: left;
+  text-shadow: 4px 3px 0px rgba(93, 89, 82, 0.32);
+}
+header p a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+header p a:hover, header p a.current {
+  color: #a1d490;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #000000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #000000;
+  background: -webkit-linear-gradient(-90deg, #000000, #444444);
+  background: linear-gradient(180deg, #000000, #444444);
+}
+footer p {
+  text-align: center;
+  color: #d3d3d3;
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  body {
+    overflow: scroll;
+    background-image: url("../img/background.jpg");
+  }
+
+  .page {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 7.5%;
+    top: 0%;
+    overflow: visible;
+  }
+  .page .test {
+    width: 80%;
+    height: 400px;
+    margin-left: 9.5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .page #special {
+    position: absolute;
+    background: #000000;
+    left: 58%;
+    margin-top: -28%;
+    padding: 1em;
+    overflow: hidden;
+  }
+  .page .second {
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+  .page .second p {
+    width: 90%;
+    margin-left: 2.5%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-top: -1.85%;
+    top: 0%;
+  }
+  header .left_nav {
+    position: relative;
+    display: block;
+    height: 39px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Arial;
+  }
+  header .left_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+  }
+  header .left_nav ul li {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+  header .left_nav ul li a {
+    display: block;
+    float: right;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+  }
+  header .left_nav ul li a:hover, header .left_nav ul li a.current {
+    color: #a1d490;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  body {
+    background-image: url("../img/background.jpg");
+    overflow: scroll;
+  }
+
+  .page {
+    position: absolute;
+    width: 95%;
+    left: 2.5%;
+    min-height: 100%;
+    top: 0%;
+    background-image: url("../img/background.jpg");
+    overflow: visible;
+  }
+  .page .test {
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .page #special {
+    position: absolute;
+    background: #000000;
+    left: 60%;
+    margin-top: -28%;
+    padding: 1em;
+    overflow: hidden;
+  }
+  .page .second {
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+  .page .second p {
+    width: 90%;
+    margin-left: 2.5%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-top: -1.85%;
+    top: 0%;
+  }
+  header .left_nav {
+    position: relative;
+    display: block;
+    height: 39px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Arial;
+  }
+  header .left_nav ul {
+    margin: 0;
+    margin-bottom: -40px;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+  }
+  header .left_nav ul li {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+  header .left_nav ul li a {
+    display: block;
+    float: right;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+  }
+  header .left_nav ul li a:hover, header .left_nav ul li a.current {
+    color: #a1d490;
+  }
+}
+@media (min-width: 900px) and (max-width: 1224px) {
+  body {
+    background-color: #444444;
+    overflow: scroll;
+  }
+
+  .page {
+    position: absolute;
+    width: 85%;
+    min-height: 100%;
+    left: 7.5%;
+    top: 0%;
+    background-image: url("../img/background.jpg");
+    overflow: visible;
+  }
+  .page .test {
+    width: 80%;
+    height: 500px;
+    margin-left: 9.5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .page #special {
+    position: absolute;
+    background: #000000;
+    left: 70%;
+    margin-top: -20%;
+    padding: 1em;
+    overflow: hidden;
+  }
+  .page .second {
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+  .page .second p {
+    width: 90%;
+    margin-left: 2.5%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-top: -1.85%;
+    top: 0%;
+  }
+  header .left_nav {
+    position: relative;
+    display: block;
+    height: 39px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Arial;
+  }
+  header .left_nav ul {
+    margin: 0;
+    margin-bottom: -20px;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+  }
+  header .left_nav ul li {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+  header .left_nav ul li a {
+    display: block;
+    float: right;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+  }
+  header .left_nav ul li a:hover, header .left_nav ul li a.current {
+    color: #a1d490;
+  }
+}
+@media (min-width: 1224px) and (max-width: 1824px) {
+  body {
+    background-color: #444444;
+    overflow: scroll;
+  }
+
+  .page {
+    position: absolute;
+    width: 75%;
+    min-height: 100%;
+    left: 12.5%;
+    top: 0%;
+    background-image: url("../img/background.jpg");
+    overflow: visible;
+  }
+  .page .test {
+    width: 70%;
+    height: 500px;
+    margin-left: 14.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .page #special {
+    position: absolute;
+    background: #000000;
+    left: 65%;
+    margin-top: -18%;
+    padding: 1em;
+    overflow: hidden;
+  }
+  .page .second {
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .page .second p {
+    width: 90%;
+    margin-left: 2.5%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-top: -1.85%;
+    top: 0%;
+  }
+  header .left_nav {
+    position: relative;
+    display: block;
+    height: 39px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Arial;
+  }
+  header .left_nav ul {
+    margin: 0;
+    margin-bottom: -20px;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+  }
+  header .left_nav ul li {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+  header .left_nav ul li a {
+    display: block;
+    float: right;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+  }
+  header .left_nav ul li a:hover, header .left_nav ul li a.current {
+    color: #a1d490;
+  }
+}
+@media (min-width: 1824px) {
+  body {
+    background-color: #444444;
+    overflow: scroll;
+  }
+
+  .page {
+    position: absolute;
+    width: 75%;
+    min-height: 100%;
+    left: 12.5%;
+    top: 0%;
+    background-image: url("../img/background.jpg");
+    overflow: visible;
+  }
+  .page .test {
+    width: 50%;
+    height: 500px;
+    margin-left: 24.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .page #special {
+    position: absolute;
+    background: #000000;
+    left: 60%;
+    margin-top: -16%;
+    padding: 1em;
+    overflow: hidden;
+  }
+  .page .second {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 50%;
+  }
+  .page .second p {
+    width: 90%;
+    margin-left: 53%;
+    margin-top: -10%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-top: -1.85%;
+    top: 0%;
+  }
+  header .left_nav {
+    position: relative;
+    display: block;
+    height: 39px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Arial;
+  }
+  header .left_nav ul {
+    margin: 0;
+    margin-bottom: -20px;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+  }
+  header .left_nav ul li {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+  header .left_nav ul li a {
+    display: block;
+    float: right;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+  }
+  header .left_nav ul li a:hover, header .left_nav ul li a.current {
+    color: #a1d490;
+  }
+}
